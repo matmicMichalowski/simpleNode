@@ -1,0 +1,16 @@
+{
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start-ws": "node wsServer.js",
+        "start-rest": "node restServer.js",
+        "start-combo-win": "start node wsServer.js & start node restServer.js",
+        "start-combo": "node wsServer.js & node restServer.js"
+    },
+    "dependencies": {
+        "ws": "^7.3.1"
+    },
+    "engines": {
+        "node": "10.x"
+    }
+}
